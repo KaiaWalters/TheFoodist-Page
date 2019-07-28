@@ -1,0 +1,138 @@
+html{
+font-family: 'Lato', sans-serif;
+}
+body{
+margin:40px;
+}
+/*Page 1 */
+header > h1 {
+  color: red;
+  font-size: 80px;
+  font-weight:300;
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+header > h2{
+  font-size: 50px;
+  font-weight:lighter;
+  text-decoration: none;
+  color:black;
+  padding-bottom:0px;
+  margin:0px;
+}
+/* For some reason li makes it horizontal but does not keep gray*/
+li{
+  display:inline-block;
+}
+/* first list */
+header>nav>ul>li>a{
+text-decoration:none;
+border-bottom: 3px solid;
+justify-content: space-between;
+display: inline-block;
+color: gray;
+font-size: 25px;
+font-weight: 300;
+padding: 0px 10px 0px 0px;
+margin:0px 10px 0px 0px;
+
+}
+
+header>nav>ul{
+  padding:0px 0px 80px 0px;
+}
+/* Date */
+section span{
+  color:gray;
+  font-size: 60px;
+  block:inline-block;
+  font-weight: 300;
+  padding: 0px 0px 0px 0px;
+}
+header>span{
+  color:gray;
+  font-size: 60px;
+}
+/* Food Of NYC */
+section > h3{
+  color:black;
+  font-size: 70px;
+  font-weight: 100;
+  padding:0px;
+  margin:10px 0px 0px 0px;
+}
+/*Image*/
+section img{
+height: 200px;
+width: 100%;
+padding: 0px 0px 0px 0px;
+}
+
+
+section > p::first-letter{
+  display: block;
+  float:left;
+  padding-right: 6px;
+  margin-top: -25px;
+  color:#ddd;
+  font-size: 150px;
+  font-weight: 300;
+}
+
+section>p{
+  padding:0px 0px 0px 0px;
+  font-size: 23px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+/* Next */
+section>a{
+  color:red;
+  font-size: 20px;
+  font-weight:900px;
+  margin: 0px 0px 0px 1050px;
+  text-decoration: none;
+}
+/*to make the line below next*/
+
+.bat{
+  border-color:gray;
+  border-bottom: 3px solid;
+  margin-bottom: 90px;
+  padding-bottom: 40px;
+}
+/* Page 2*/
+
+.op{
+  color:red;
+  font-size: 20px;
+  padding: 0px 10px 0px 0px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+section nav> ul > li > a{
+  color:red;
+  font-size: 20px;
+  padding: 0px 10px 0px 10px;
+  border-right: 2px solid gray;
+  text-decoration: none;
+}
+
+.paris{
+  height: 500px;
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.down{
+  color:gray;
+  font-size: 60px;
+  block:inline-block;
+  margin: 0px 0px 80px 0px;
+}
+
+/* Copyright */
+section>footer>span{
+  font-size: 20px;
+}
